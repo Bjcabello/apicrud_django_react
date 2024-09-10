@@ -13,6 +13,7 @@ dist-ssr
 *.local
 
 # Editor directories and files
+/.vscode/
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -24,25 +25,8 @@ dist-ssr
 *.sw?
 
 #Django
-# Ignorar virtual environment (Django)
-venv/
-
-# Ignorar cachés de Python
-__pycache__/
-*.pyc
-
-# Ignorar base de datos SQLite
+venv 
+__pycache__
 db.sqlite3
 
-# Ignorar archivos de logs
-*.log
-
-# Ignorar dependencias de Node.js (React)
-client/node_modules/
-
-# Ignorar build de React
-client/build/
-
-# Ignorar archivos de entorno (Django y React)
-.env
 
