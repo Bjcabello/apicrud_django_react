@@ -1,3 +1,48 @@
-__pycache__
-venv
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Django
+# Ignorar virtual environment (Django)
+venv/
+
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+
+# Ignorar base de datos SQLite
 db.sqlite3
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar dependencias de Node.js (React)
+client/node_modules/
+
+# Ignorar build de React
+client/build/
+
+# Ignorar archivos de entorno (Django y React)
+.env
+
